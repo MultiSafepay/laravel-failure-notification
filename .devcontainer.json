@@ -1,0 +1,20 @@
+{
+	"name": "laravel-notification-failure",
+	"dockerComposeFile": [
+		"docker-compose.yml"
+	],
+	"service": "dev",
+	"workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode":{
+            "extensions": [
+                "bmewburn.vscode-intelephense-client",
+                "ecodes.vscode-phpmd",
+                "editorconfig.editorconfig",
+                "getpsalm.psalm-vscode-plugin",
+                "swordev.phpstan",
+                "wongjn.php-sniffer"
+            ]
+        }
+    }
+}
